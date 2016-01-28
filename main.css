@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:content-box;
+}
+body{
+	margin: 10px;
+}
+.caja{
+	background-color: #428BCA;
+	height: 100px;
+	width: 100px;
+}
+.container{
+	margin: 10px 0px;
+	padding: 10px;
+	border:solid 1px #428BCA;
+	width: 340px;
+	text-align: center;
+}
+.container .caja{
+	display: inline-block;
+	margin-right: 10px;
+}
+.inline{
+	display: inline-block;
+}
+.container .caja:last-child{
+	margin-right: 0px;
+}
